@@ -1,0 +1,69 @@
+
+.tableoc {
+    position: fixed;
+    width: 150px;
+    height: 200px;
+    background: rgb(141, 139, 139);
+    opacity: .7;
+    border-style: solid;
+    border-color: white;
+}
+.tableoc li{
+    padding: 8px 8px;
+
+}
+img{
+    border-style: double;
+    margin:10px 10px;
+}
+article{
+    border-style: groove;
+    margin:10px 0px;
+    padding:0px 6px;
+    background-color: rgb(34, 32, 32,.8);
+}
+.about{
+    border-style: none;
+}
+.main{
+    margin-left: 160px;
+    padding: 0px 10px;
+    font-family: 'Helvetica';
+}
+
+ul{
+    list-style-type: square;
+}
+li{
+    color: red;
+}
+a{
+    color: black;  
+    font-family: "Impact";
+}
+a:hover{
+    color: darkred;
+}
+body{
+    background-image: url(images/background.jpg);
+    color: rgb(253, 251, 251);
+    position: relative;
+    
+}
+.about{
+    justify-items: left;
+    
+}
+
+footer{
+    font-size: 10px;
+    text-align: right;
+}
+h2{
+    text-decoration: underline;
+    color: rgb(160, 160, 160);
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Impact';
+    font-style: oblique;
+}
